@@ -1,0 +1,16 @@
+.iconify { color: green; }
+
+/* Change all icons "mdi-light:alert" to red */
+.iconify[data-icon="mdi-light:alert"] {
+  color: #f00;
+}
+
+/* Change all icons "mdi:home" to red */
+.iconify[data-icon="mdi:home"] {
+  color: #f00;
+}
+
+/* Change all icons inside ".light-blue-block" to #08f */
+.light-blue-block .iconify {
+  color: #08f;
+}

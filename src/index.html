@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>ae iconify component</title>
+
+  <script type="module" src="/build/ae-iconify.esm.js"></script>
+  <script nomodule src="/build/ae-iconify.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Show alert icon using iconify scripts for a web page
+   Ref: https://iconify.design/icon-sets/mdi-light/alert.html
+   Ref: https://iconify.design/docs/iconify-in-pages/ -->
+  <div>
+    <iconify-icon data-icon="mdi-light:alert" width="4em" data-flip="vertical"></iconify-icon>
+    iconify-icon mdi-light:alert test 1
+  </div>
+  <ae-iconify-component aetitle="Click to Hide/Show SVG">
+    <ul slot="aepanel-header">
+      <li>adaept components are here!</li>
+      <li>they shift bits of the web...</li>
+    </ul>
+    <p slot='aepanel-footer'>This is a panel footer</p>
+  </ae-iconify-component>
+  <div>
+    <iconify-icon data-icon="mdi-light:alert" width="4em"></iconify-icon>
+    iconify-icon mdi-light:alert test 2
+  </div>
+  <p>Red home icon: <span class="iconify" data-icon="mdi:home"></span></p>
+  <p class="light-blue-block">
+    All content inside this div is light blue,
+    including umbrella icon:
+    <span class="iconify" data-icon="fa-umbrella"></span>
+    and horizontally flipped attachment icon:
+    <span class="iconify" data-icon="entypo-attachment" data-flip="horizontal"></span>
+  </p>
+  <p>
+    <iconify-icon data-icon="flat-color-icons:voice-presentation"></iconify-icon>
+    <!-- Ref: https://iconify.design/icon-sets/flat-color-icons/ -->
+    <span class="iconify" data-icon="flat-color-icons:alarm-clock" data-inline="false"></span>
+    <span class="iconify" data-icon="flat-color-icons:clock" data-inline="false"></span>
+    <span class="iconify" data-icon="flat-color-icons:expired" data-inline="false"></span>
+    <span class="iconify" data-icon="flat-color-icons:overtime" data-inline="false"></span>
+  </p>
+
+</body>
+
+</html>

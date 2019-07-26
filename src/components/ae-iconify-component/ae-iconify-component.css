@@ -1,0 +1,24 @@
+#aeheader {
+  background: darkgreen;
+  color: white;
+  cursor: pointer;
+  padding: 2px;
+}
+
+#aecontent {
+  background: antiquewhite;
+  border-style: groove;
+  border-color: coral;
+  border-width: 7px;
+}
+
+/* https://iconify.design/docs/iconify-in-pages */
+/* Change all icons "mdi:home" to red */
+.iconify[data-icon="mdi:home"] {
+  color: #f00;
+}
+
+/* Change all icons inside ".light-blue-block" to #08f */
+.light-blue-block .iconify {
+  color: #08f;
+}
