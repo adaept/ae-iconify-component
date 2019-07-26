@@ -1,13 +1,5 @@
 import { Component, Prop, h, State, Method } from '@stencil/core';
 
-//import alert from '@iconify/icons-mdi-light/alert';
-
-//import firstPlaceMedal from "@iconify/icons-twemoji/1st-place-medal";
-//import airplane from "@iconify/icons-twemoji/airplane";
-//import airplaneArrival from "@iconify/icons-twemoji/airplane-arrival";
-//import airplaneDeparture from "@iconify/icons-twemoji/airplane-departure";
-//import helicopter from "@iconify/icons-twemoji/helicopter";
-
 @Component({
   tag: 'ae-iconify-component',
   styleUrl: 'ae-iconify-component.css',
@@ -57,16 +49,6 @@ export class AeIconfiyComponent {
           <slot name="aepanel-header" />
           <div innerHTML={this.svgcontent}></div>
           <slot name="aepanel-footer" />
-          {/*
-          <p>Red home icon: <span class="iconify" data-icon="mdi:home"></span></p>
-          <p class="light-blue-block">
-            All content inside this div is light blue,
-            including umbrella icon:
-    <span class="iconify" data-icon="fa-umbrella"></span>
-            and horizontally flipped attachment icon:
-    <span class="iconify" data-icon="entypo-attachment" data-flip="horizontal"></span>
-          </p>
-          */}
         </div>
       </div >
     );
