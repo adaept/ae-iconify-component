@@ -24,7 +24,7 @@
     "@iconify/icons-mdi-light": "^1.0.0",
     "@iconify/icons-twemoji": "^1.0.1",
     "@stencil/core": "^1.2.1",
-    "@types/jest": "24.0.15",
+    "@types/jest": "24.0.16",
     "@types/puppeteer": "1.19.0",
     "jest": "24.8.0",
     "jest-cli": "24.8.0",
